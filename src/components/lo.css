@@ -1,0 +1,39 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.content h1 {
+    font-size:40px;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.btnn {
+    margin-top: 20px;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b20000;
+}
+.username {
+    color: yellow;
+}
